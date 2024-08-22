@@ -1,0 +1,38 @@
+/* About.css */
+.about-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2859e1d1;
+  }
+  
+  .about-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-container h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #2859e1d1;
+  }
+  
+  .about-container ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .about-container ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  

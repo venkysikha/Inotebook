@@ -1,0 +1,40 @@
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    width: 100%; /* Ensures it spans the entire width of the page */
+    transition: background-color 0.3s ease; /* Smooth transition for background color changes */
+  }
+.nav-item:hover
+{
+  transform: scale(0.85);
+  box-shadow: 1px 4px 10px rgb(239, 206, 239);
+  border-radius: 4px;
+}
+div.navbar-collapse ul.navbar-nav li {
+  color: #E69D32;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+/* Add this to your Navbar.css file */
+
+.mode-btn {
+  background-color: rgba(61, 61, 222, 0.468); /* Slightly lighter shade than navbar */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.mode-btn:hover {
+  background-color: rgba(87, 87, 150, 0.653); /* Even lighter shade for hover effect */
+  cursor: pointer;
+  transform: scale(0.85);
+  box-shadow: 1px 4px 10px rgb(239, 206, 239);
+
+}

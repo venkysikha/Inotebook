@@ -1,0 +1,52 @@
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: hsla(233, 93%, 6%, 0.457); /* Slight transparency */
+    border-radius: 15px; /* Rounded corners for a smoother look */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.details
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+input{
+    padding: 3px;
+    width: 350px;
+    border-radius: 10px;
+    line-height: inherit;
+    margin: 6px;
+}
+.mob
+{
+    
+    margin-bottom:0;
+    text-align: center;
+}
+.labell
+{
+    padding-right: 10px;
+}
+
+.container
+{
+    min-height: 580px;
+}
+
+#message
+{
+    width: 350px;
+    height: 100px;
+    border-radius:10px;
+    border:10px;
+
+}
