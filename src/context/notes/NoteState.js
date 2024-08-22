@@ -16,7 +16,7 @@ const NoteState = (props) => {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
-          "auth-token": token,
+          "auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY5ZThkNjJlOTRjYTE3ZTk1N2FmZWJhIn0sImlhdCI6MTcyMTY2NzE1Nn0.Xrc6w7fG8GHI9JXCsKY3RtNthUgqK9vz6z2jAGeeYUw",
         },
       });
 
@@ -96,7 +96,6 @@ const NoteState = (props) => {
   // Edit a note
   const editNote = async (id, title, description, tag) => {
     try {
-      const token = localStorage.getItem("token");
       const response = await fetch(`${host}/api/note/updatenote/${id}`, {
         method: "PUT",
         headers: {
