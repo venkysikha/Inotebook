@@ -39,7 +39,6 @@ const NoteState = (props) => {
   // Add a note
   const addNote = async (title, description, tag) => {
     try {
-      const token = localStorage.getItem("token");
       const response = await fetch(`${host}/api/note/addnote`, {
         method: "POST",
         headers: {
